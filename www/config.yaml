@@ -1,4 +1,28 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Serhii Polishchuk Blog'
-theme = 'hugo-theme-texify'
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'Serhii Polishchuk Blog'
+theme: 'hugo-theme-texify'
+author:
+  name: Serhii Polishchuk
+  email: "spolischook@gmail.com"
+params:
+  description: "My lifetime programming experience"
+  footnote: >
+    Follow me on <a class=link href=https://github.com/spolischook>GitHub</a>,
+    <a class=link href=https://www.instagram.com/serhiipolishchuk/>Instagram</a> or
+    <a class=link href=/index.xml>RSS</a> |
+    <a class=link href=https://creativecommons.org/licenses/by-nc-nd/4.0/ target=_blank rel=noopener>CC BY-NC-ND 4.0</a>
+  keywords:
+    - GoLang
+    - Symfony
+    - JavaScript
+  since: 2010
+  customcss:
+    - css/custom.css
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true
