@@ -1,0 +1,16 @@
+{
+  "name": "kotoblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -m -i ./input.css -o ./static/css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./static/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

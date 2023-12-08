@@ -1,0 +1,29 @@
+baseURL: https://kotoblog.pp.ua/
+languageCode: en-us
+title: Serhii Polishchuk
+menu:
+  main:
+    - name: Blog
+      pageRef: /blog
+      weight: 20
+    - name: Case study
+      pageRef: /study
+      weight: 30
+    - name: Probability Theory
+      pageRef: /probability-theory
+      parent: Case study
+      weight: 10
+    - name: Synergetics
+      pageRef: /synergetics
+      parent: Case study
+      weight: 20
+    - name: Numerical methods
+      pageRef: /numerical-methods
+      parent: Case study
+      weight: 30
+    - name: About me
+      pageRef: /about
+      weight: 40
+markup:
+  highlight:
+    noClasses: false
