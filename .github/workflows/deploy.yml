@@ -35,7 +35,8 @@ jobs:
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       with:
-        args: --acl public-read --follow-symlinks --delete --exclude 'node_modules/*' --exclude 'package-lock.json' --exclude 'package.json' --exclude 'tailwind.config.js' --exclude 'input.css' --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore'
+        args: --acl public-read --follow-symlinks --delete
+        SOURCE_DIR: './public'
       env:
         AWS_S3_BUCKET: kotoblog-website
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
