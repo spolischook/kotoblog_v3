@@ -13,7 +13,7 @@ draft: false
 Є також [російськомовна версія](https://www.nvidia.com/ru-ru/autonomous-machines/embedded-systems/jetson-nano/) де можна прочитати про технічні характеристики.
 Для доставки в Україну я скористався службою доставки [MEEST AMERICA Inc](https://my.meest.us/ua/index).
 Доставка через Делавер (без податку США) обійшлась у 8 USD та приблизно 3 тижні.
-![Чек за доставку](https://d2ck16jxw8uc3k.cloudfront.net/Articles/127-jetson-nano-overview/shipping-invoice.png)
+![Чек за доставку](./shipping-invoice.png)
 Податок в Україні також сплачуватись не довелось - на данний момент посилки до 100 Євро не обкладаються податком.
 
 ### Характеристики та архітектура
@@ -32,12 +32,12 @@ draft: false
 Між barrel роз'ємом (J25) та роз'ємом камери (J13) розташований коннектор J48 на який слід встановити джампер задля переключення
 живлення з microUSB (по замовчанню) на barrel роз'єм. Про це написано на самій платі - "ADD JUMBER TO DISABLE uUSD PWR". 
 
-![джампер живлення USB -> Barrel](https://d2ck16jxw8uc3k.cloudfront.net/Articles/127-jetson-nano-overview/add-jumber-to-disable-usb-power.jpg )
+![джампер живлення USB -> Barrel](./add-jumber-to-disable-usb-power.jpg )
 
 Для живлення я використав [БЖ Chieftec CDP-085ITX](http://www.chieftec.eu/en/psus/external-psu/cdp-085itx.html) +12В / 7.5А
 та підстроєчний стабілізатор напруги:
 
-![стабілізатор напруги](https://d2ck16jxw8uc3k.cloudfront.net/Articles/127-jetson-nano-overview/5v-stabilization.jpg)
+![стабілізатор напруги](./5v-stabilization.jpg)
 
 ### Початок роботи
 
@@ -123,4 +123,4 @@ ImageNet - це база данних аннотованих фотограій.
 
 Розпізнавання апельсину пройшло успішно:
 
-![апельсин розпізнано](https://d2ck16jxw8uc3k.cloudfront.net/Articles/127-jetson-nano-overview/output.jpg)
+![апельсин розпізнано](./output.jpg)

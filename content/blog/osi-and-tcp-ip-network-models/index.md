@@ -19,7 +19,7 @@ draft: true
 Узгодження протоколу відбувається на етапі підключення двох машин.
 
 
-![Шари, протоколи та інтерфейси](https://d2ck16jxw8uc3k.cloudfront.net/Articles/132-osi-and-tcp-ip-network-models/layers_protocols_and_interfaces.jpg)
+![Шари, протоколи та інтерфейси](./layers_protocols_and_interfaces.jpg)
 
 **Рис.1** *Шари, протоколи та інтерфейси мережі*
 
@@ -38,7 +38,7 @@ draft: true
 Рівень 5 передає повідомлення (Message M) на рівень 4 для доставки на приймаючу машину.
 Рівень 4 додає до повідомлення заголовок (Header H), який включає допоміжну інформацію.
 
-![Шари, заголовки та контрольна сумма](https://d2ck16jxw8uc3k.cloudfront.net/Articles/132-osi-and-tcp-ip-network-models/layers_headers_trailers.jpg)
+![Шари, заголовки та контрольна сумма](./layers_headers_trailers.jpg)
 
 **Рис.2** *Приклад роботи п'яти рівневої мережі*
 
