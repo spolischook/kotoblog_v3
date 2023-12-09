@@ -703,6 +703,10 @@ video {
   width: 100%;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .list-none {
   list-style-type: none;
 }
