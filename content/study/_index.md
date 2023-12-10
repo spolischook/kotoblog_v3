@@ -6,8 +6,8 @@ thumbnail: "/images/prince.jpg"
 rating: 5
 ---
 
-Here is a posts in my Case Studies:
+Welcome to my collection of study cases. These projects span a variety of topics, demonstrating my understanding and application of complex theories and methods. Here's what you can explore:
 
-- First case
-- Second case
-- Third case
+- Probability Theory
+- Synergetics
+- Numerical Methods
