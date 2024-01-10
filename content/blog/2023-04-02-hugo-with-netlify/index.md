@@ -95,6 +95,11 @@ collections:
 Thanks [Matthew Miller](https://blog.millerti.me/2021/12/23/supporting-hugo-page-bundles-in-netlify-cms/) 
 for this hint.
 
+### WebSite frontend
+
+With enhanced Tailwind config it is not a big issue to connect Tailwindcss with Hugo.  
+To find a desent color schema, based on image amazing https://coolors.co/image-picker service.
+
 # Deployment process
 
 Deployment of hugo is pretty straighforward:
