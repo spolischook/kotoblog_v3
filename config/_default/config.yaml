@@ -27,3 +27,5 @@ menu:
 markup:
   highlight:
     noClasses: false
+Params:
+  graphcommentId: 'kotoblog-pp-ua'
