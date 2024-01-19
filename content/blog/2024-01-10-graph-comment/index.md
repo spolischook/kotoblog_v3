@@ -39,4 +39,12 @@ and [used in the page itself](https://github.com/spolischook/kotoblog_v3/content
 
 My experience with Hugo has been remarkably positive, particularly for public websites. Its versatility and robust features have provided an excellent foundation for my tech blog's transformation. The extensibility of Hugo allows for seamless integration of additional functionalities, making it a dynamic and scalable solution. Moreover, as I explored alternatives for comments within the market, it became evident that the landscape is rich with options. While Graph Comment proved to be a quick and effective choice for my needs, the maturity and refinement of longstanding services in the comments domain make it clear that there are numerous well-polished alternatives to suit diverse preferences and requirements.
 
+### P.S.
+
+Of course, there are the same issues with GraphComment as with Disqus.  
+Next time I'll try https://giscus.app/ which declare:  
+> No tracking, no ads, always free.
+
+![graphcomment js issue](./graphcomments-js.png)
+
 {{< comments >}}
