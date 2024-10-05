@@ -1,12 +1,10 @@
 ---
 title: "Rethinking Logging: Why Logging Shouldn't Depend on Dependency Injection"
-date: 2024-06-29T10:52:31+02:00
+date: 2024-09-05T10:52:31+02:00
 draft: false
 tags: [golang,symfony,di]
 featured: true
 ---
-
-
 As a developer with experience spanning Symfony and Golang, 
 I’ve worked with different methods of handling dependencies in applications. 
 One issue that keeps resurfacing, especially with frameworks like Symfony and libraries such as UberFX, 
