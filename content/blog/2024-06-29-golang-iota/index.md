@@ -1,7 +1,7 @@
 ---
 title: "Golang Iota"
-date: 2023-04-29T10:52:31+02:00
-draft: true
+date: 2024-06-29T10:52:31+02:00
+draft: false
 tags: [golang]
 featured: true
 ---
