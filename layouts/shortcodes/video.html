@@ -1,0 +1,4 @@
+<video controls {{ with .Get "autoplay" }}autoplay{{ end }} {{ with .Get "loop" }}loop{{ end }} {{ with .Get "muted" }}muted{{ end }} {{ with .Get "playsinline" }}playsinline{{ end }} {{ with .Get "preload" }}preload="{{ . }}"{{ end }} width="{{ with .Get "width" }}{{ . }}{{ else }}100%{{ end }}" height="{{ .Get "height" }}">
+    <source src="{{ .Page.RelPermalink }}{{ .Get "src" }}" type="{{ with .Get "type" }}{{ . }}{{ else }}video/mp4{{ end }}">
+    Your browser does not support the video tag.
+</video>
