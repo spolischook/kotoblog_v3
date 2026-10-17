@@ -57,7 +57,7 @@
             {{- end }}
         {{- end }}
         <li class="group relative">
-            <a class="flex group flex-col px-2 pt-1 {{- if $isRoot }} hover:no-underline text-white hover:text-gray-200 {{- else }} text-zinc-700 hover:text-zinc-800 {{- end }}"
+            <a class="flex group flex-col px-2 pt-1 {{- if $isRoot }} hover:no-underline text-white hover:text-gray-200 {{- else }} text-zinc-700 hover:text-zinc-800 dark:text-zinc-300 dark:hover:text-white {{- end }}"
                 {{- range $k, $v :=$attrs }} {{- with $v }} {{- printf " %s=%q" $k $v | safeHTMLAttr }} {{- end }} {{- end -}}>
                 <div class="flex items-center justify-start py-3">
                     {{ $name }}
@@ -73,7 +73,7 @@
             </a>
             {{- with .Children }}
                 <ul
-                    class="absolute hidden group-hover:block right-0 top-10 z-20 w-56 py-2 px-4 overflow-hidden bg-white rounded-md shadow-xl list-none mb-0">
+                    class="absolute hidden group-hover:block right-0 top-10 z-20 w-56 py-2 px-4 overflow-hidden bg-white dark:bg-zinc-800 rounded-md shadow-xl list-none mb-0">
                     {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" . "isRoot" false) }}
                 </ul>
             {{- end }}

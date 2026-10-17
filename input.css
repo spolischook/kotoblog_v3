@@ -77,22 +77,22 @@ a {
     @apply max-w-3xl mx-auto;
 }
 h1 {
-    @apply text-4xl text-gray-900 mb-4 mt-2 leading-tight font-bold text-center;
+    @apply text-4xl text-gray-900 dark:text-zinc-100 mb-4 mt-2 leading-tight font-bold text-center;
 }
 h2 {
-    @apply text-3xl text-gray-900 mb-4 mt-2 leading-tight font-bold;
+    @apply text-3xl text-gray-900 dark:text-zinc-100 mb-4 mt-2 leading-tight font-bold;
 }
 h3 {
-    @apply text-2xl text-gray-900 mb-4 mt-2 leading-tight;
+    @apply text-2xl text-gray-900 dark:text-zinc-100 mb-4 mt-2 leading-tight;
 }
 h4 {
-    @apply text-xl text-gray-900 mb-4 mt-2 leading-tight;
+    @apply text-xl text-gray-900 dark:text-zinc-100 mb-4 mt-2 leading-tight;
 }
 h5 {
-    @apply text-lg text-gray-900 mb-4 mt-2 leading-tight;
+    @apply text-lg text-gray-900 dark:text-zinc-100 mb-4 mt-2 leading-tight;
 }
 h6 {
-    @apply font-bold text-gray-900 mb-4 mt-2 leading-tight;
+    @apply font-bold text-gray-900 dark:text-zinc-100 mb-4 mt-2 leading-tight;
 }
 code {
     background-color: #F5F5F5;
@@ -187,4 +187,21 @@ li {
 }
 blockquote {
     @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800
+}
+/* dark mode; :where keeps specificity low so utility classes still win */
+:where(.dark) a {
+    color: #60a5fa;
+}
+:where(.dark) a:hover {
+    color: #93c5fd;
+}
+.dark code {
+    background-color: #27272a;
+    color: #fca5a5;
+}
+.dark pre code {
+    background-color: transparent;
+}
+.octicon {
+    fill: currentColor;
 }
