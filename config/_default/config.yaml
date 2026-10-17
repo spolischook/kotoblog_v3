@@ -10,15 +10,15 @@ menu:
       pageRef: /study
       weight: 30
     - name: Probability Theory
-      pageRef: /probability-theory
+      pageRef: /study/probability-theory
       parent: Case study
       weight: 10
     - name: Synergetics
-      pageRef: /synergetics
+      pageRef: /study/synergetics
       parent: Case study
       weight: 20
     - name: Numerical methods
-      pageRef: /numerical-methods
+      pageRef: /study/numerical-methods
       parent: Case study
       weight: 30
     - name: About me
